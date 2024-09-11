@@ -48,7 +48,8 @@ function Hero() {
                 <img src={linkedinIcon} alt="twitter icon" />
                 </a>
             </span>
-            <p className={styles.description}>As a full-stack web developer, I craft visually compelling web experiences that empower businesses to engage users and achieve their goals.
+            <p className={styles.description}>
+                I craft visually compelling web experiences that empower businesses to engage users and achieve their goals.
             </p>
            <a href={CV} download>
             <button className='hover'>
