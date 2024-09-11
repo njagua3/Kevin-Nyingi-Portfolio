@@ -36,7 +36,7 @@ function Hero() {
                 <br />
                 Nyingi
             </h1>
-            <h2>Software Developer</h2>
+            <h2>Full-stack Web Developer</h2>
             <span>
                 <a href="https://x.com/Nj4gua" target='_blank'>
                 <img src={twitterIcon} alt="X icon" />
@@ -48,8 +48,7 @@ function Hero() {
                 <img src={linkedinIcon} alt="twitter icon" />
                 </a>
             </span>
-            <p className={styles.description}>With a passion for developing modern React web apps for commercial 
-                businesses.
+            <p className={styles.description}>As a full-stack web developer and UI/UX designer, I craft seamless, visually compelling web experiences that empower businesses to engage users and achieve their goals.
             </p>
            <a href={CV} download>
             <button className='hover'>
