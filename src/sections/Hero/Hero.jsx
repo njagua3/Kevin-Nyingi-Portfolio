@@ -8,6 +8,8 @@ import githubDark from '../../assets/github-dark.svg';
 import githubLight from '../../assets/github-light.svg';
 import linkedinDark from '../../assets/linkedin-dark.svg';
 import linkedinLight from '../../assets/linkedin-light.svg';
+import mediumLight from '../../assets/medium-light.png';
+import mediumDark from '../../assets/medium-dark.png';
 import CV from '../../assets/cv.pdf';
 import { useTheme } from '../../common/ThemeContext';
 function Hero() {
@@ -16,7 +18,8 @@ function Hero() {
     const twitterIcon = theme === 'light' ? twitterLight : twitterDark;
     const githubIcon = theme === 'light'? githubLight : githubDark;
     const linkedinIcon = theme === 'light'? linkedinLight : linkedinDark;
-  
+    const mediumIcon = theme === 'light'? mediumDark : mediumLight;
+    
     return (
     <section id='hero' className={styles.container}>
         <div className={styles.colorModeContainer}>
@@ -46,6 +49,9 @@ function Hero() {
                 </a>
                 <a href="https://linkedin.com/in/kevin-nyingi" target='_blank'>
                 <img src={linkedinIcon} alt="twitter icon" />
+                </a>
+                <a href="https://medium.com/@njaguanyingikevin" target='_blank'>
+                <img src={mediumIcon} alt="medium icon" />
                 </a>
             </span>
             <p className={styles.description}>
