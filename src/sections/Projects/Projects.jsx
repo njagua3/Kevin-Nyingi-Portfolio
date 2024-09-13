@@ -12,7 +12,7 @@ function Projects() {
         <div className={styles.projectsContainer}>
            <ProjectCard 
            src={viberr} 
-           link="https://github.com/njagua3/Njagua-Bot-Battlr.git"
+           link="https://njagua-bot-battlr.vercel.app/"
            h3= "Battlr Bot"
            p="Battlr Bot App"
           /> 
